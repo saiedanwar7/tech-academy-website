@@ -12,4 +12,4 @@
 ### Extra Packeges:
 - Bootstrap
 - React Route
-- Al Also All Images Collect from Internet
+- And Also All Images Collect from Internet
