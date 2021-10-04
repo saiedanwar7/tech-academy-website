@@ -1,0 +1,149 @@
+[
+    {
+        "courseId": "TA1",
+        "courseTitle": "C Programming For Beginners",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Understand the fundamentals of the C Programming Language",
+            "Make yourself more marketable for entry level programming position",
+            "Understand variables and the different data types",
+            "Understand the core language that most modern languages are based on",
+            "Apply for real-time programming positions"
+        ],
+        "courseDescription": "By the end of this course, you will understand the fundamentals of the C Programming Language, and make yourself more marketable for entry level programming positions. You will understand variables and the different data types, be able to utilize functions and arrays, understand the  concept of pointers, learn about control flow (decision statements and iteration).You will be in a position to apply for real-time programming positions, and truly understand the core language that most modern languages are based on!",
+
+        "prerequisite": "A computer running Microsoft Windows, Linux or the Mac operating systems.At least 4GB of ram is recommended.No programming experience, all concepts taught in this class!",
+        "rating": 4,
+        "image": "https://mk0setscholarsn9sko6.kinstacdn.com/wp-content/uploads/2020/07/C-Programming.jpg"
+    },
+ 
+    {
+        "courseId": "TA2",
+        "courseTitle": "Python for Beginners",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Understand user input, Manipulate string & data",
+            "Create fully functional Python programs",
+            "Learn about loop structures and conditionals",
+            "Work with Python file handling",
+            "Create and modify data structures in Python"
+        ],
+
+        "courseDescription": "This course has everything you need to get started with Python. We'll first start with the basics of Python - learning about strings, variables, and data types. Then, we'll move on to loops and conditionals. Once we're done with that, we'll learn about functions and files in Python. All of this will culminate towards building a fun game using the concepts we've learned in Python. The entire course is filled with exercises that challenge you so that you get the best experience possible.I hope you're excited to dive into Python with this course. So what are you waiting for? Let's get started! ",
+
+        "prerequisite": "Basic knowledge computer, internet browsing",
+        "rating": 4,
+        "image": "https://3.imimg.com/data3/KG/CN/MY-13764595/python-programming-training-500x500.jpeg"
+    },
+
+    {
+        "courseId": "TA3",
+        "courseTitle": "React JS Web Development",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Build powerful, fast, user-friendly, and reactive web apps",
+            "Provide amazing user experiences by leveraging the power of JavaScript with ease",
+            "Get a proper idea of React hooks and lifecycle",
+            "Master fundamental concepts behind structuring Redux applications"
+        ],
+        "courseDescription": "The new content follows all the best practices of modern React development, and will take you even deeper into the React engine. There is a far better exploration of where React fits in the overall big picture of web development. And just like before, the course will teach how to create React applications as you build your own React projects along with the tutorial.",
+        "prerequisite": "Familiarity with JavaScript, HTML, and CSS will help.",
+        "rating": 4,
+        "image": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/140405850/original/c670430f7b3452d1889b3dbda4356ab3911becef/create-professional-react-website-design.png"
+    },
+
+    {
+        "courseId": "TA4",
+        "courseTitle": "Competitive Programming",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Data Structures",
+            "Algorithm",
+            "Merge Sort, QuickSort, Count Sort, Bucket Sort",
+            "Stacks, Queues, Hash Tables, Hash Sets, Heap-Based Structures, Binary Search Tree-Based Data Structures, Coordinate Compression, Custom Comparators"
+        ],
+        "courseDescription": "In this course, which will help both novice and advanced programmers alike, you will dominate the algorithms and data structures necessary to do well in contests and to gain a competitive edge over other candidates in software interviews. With this course, you will be ready to participate in online contests and informatics olympiads, and will have the experience necessary to continue advancing in this field. Are you ready to take this big step in your journey?",
+
+        "prerequisite": "Good logic sense. Familiarity with at least one programming language will even boost your learning, but it is not mandatory",
+        "rating": 4,
+        "image": "https://image.slidesharecdn.com/competitiveprogramming-160831111316/95/competitive-programming-1-638.jpg?cb=1472642138"
+    },
+
+    {
+        "courseId": "TA5",
+        "courseTitle": "Android App Development Bootcamp 2021",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Learn Android app development and become a professional Android developer, go freelance, or build your dream app idea",
+            "Make beautiful, professional, Android apps",
+            "Switch careers and get a job as an Android Developer",
+            "Go from a complete beginner - even with no previous programming experience - to a real Android App Developer"
+        ],
+        "courseDescription": "The Android Development Bootcamp is a brand new, up-to-date course providing the perfect introduction to the real-world Android concepts and skills required to be a successful Android developer in 2021. Whether you are a complete beginner or are coming from another language or platform, this course will go from setting up and installing Android Studio to building real apps that are useful and look great. You'll gain a deep understanding of the core important aspects of Android app development",
+
+        "prerequisite": "Basic Knowledge of Java, Understanding of XML, Android SDK, Android Studio",
+        "rating": 4,
+        "image": "https://5.imimg.com/data5/OR/PY/MY-55617879/android-app-development-services-500x500.png"
+    },
+
+    {
+        "courseId": "TA6",
+        "courseTitle": "PHP with Laravel for beginners",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Learn to build applications using laravel",
+            "To install Laravel using Windows and MAC",
+            "You will learn how use Laravel",
+            "How to connect and use Databases",
+            "You will learn about Laravel ORM (Object Relational Mapper) and Raw SQL queries. Database stuff :)"
+        ],
+        "courseDescription": "Laravel has become one of the most popular if not the most popular PHP framework. Employers are asking for this skill for all web programming jobs and in this course we have put together all of them, to give you the best chance of landing that job; or taking it to the next level. This course will take your game a new level. Imagine being able to create the next Facebook or Twitter, or even getting the developer job you dream of? What about just a programming job? You can achieve all that if you study with us and really focus. We will help you along the way.",
+
+        "prerequisite": "Basic programming knowledge- HTML, CSS, JavaScritp.Basic Computer and Internet Browsing",
+        "rating": 4,
+        "image": "https://freecoursesites.com/wp-content/uploads/2019/08/Master-Laravel-A-php-framework-for-Beginner-to-Advanced-Course.jpg"
+    },
+
+    {
+        "courseId": "TA7",
+        "courseTitle": "Data Structure & Algorithm Fundamentals",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Explanation of the core concepts of basic data structure and algorithms with practical examples.",
+            "Detailed explanation on Complexity analysis with working examples (both time and memory).",
+            "Introduction to Graph Theory, greedy & searching techniques, recursions, and lot more!"
+        ],
+        "courseDescription": "This course solely focuses on data structure and algorithm fundamentals. There are a lot of people both from CS and Non-CS background who do not have adequate understandings on data structures and algorithms. Data structures and algorithms are the most important topics to learn in order to become a successful software engineer or ace technical interviews. If you know basic programming but want to learn DS&A, this course is for you !",
+        "prerequisite": "Basic knowledge (i.e. loops, arrays, I/O etc) of at least one programming language.",
+        "rating": 4,
+        "image": "http://www.bigwaytechnology.com/images/courses/ds.gif"
+    },
+
+    {
+        "courseId": "TA8",
+        "courseTitle": "Professional Cyber Security Career",
+        "courseType": "Online",
+        "courseLevel": "Beginner",
+        "courseHighlight": [
+            "Introduction to IT & Cyber Security Overview; Career Track detail discussion & course outcome.",
+            "Lab Setup for Cyber Security Attack Simulation (VirtualBox, Kali Linux, Metasploit, WinXP, Win 10, Win 2019 Server & others",
+            "Cybersecurity Tools & it's application (Nmap, Wireshark, process hacker, Win Debugger x64 etc ) and how to use them efficiently.",
+            "Linux Fundamentals required for IT Security"
+        ],
+        "courseDescription": "Cyber Security is a vital part of day to day Information Technology domain. If you are a programmer, system analyst, system administrator, students or a general computer user, it is better to understand IT Security/ Cyber Security to keep yourself safe and protected from cyber threats and cyber criminals. This course is designed to mentor you with practical labs, industry knowledge & real-life experience.After successful completion of this course you will have a solid baseline knowledge and confidence to become a IT Security Analyst /Cyber Security Analyst .",
+
+        "prerequisite": "Basic programming knowledge, PC/Laptop with minimum 8 GB RAM, Ensure 6-8 hrs/week practice time.",
+        "rating": 4,
+        "image": "https://coursemarks.com/wp-content/uploads/2021/06/3a85bcdb4d20fb33e66fd54dda78fe12.jpg"
+    }
+
+
+    
+]
