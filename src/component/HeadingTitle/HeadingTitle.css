@@ -23,3 +23,18 @@
     color: white;
     margin-bottom: 30px;
 }
+
+.card-img2{
+    height: 350px;
+}
+
+.course-card:hover{
+    box-shadow: 5px 10px 10px 5px rgba(19, 102, 122, 0.2), 0 6px 20px 0 rgba(57, 140, 173, 0.19);
+    
+}
+
+
+.details-btn{
+    color: white;
+}
+

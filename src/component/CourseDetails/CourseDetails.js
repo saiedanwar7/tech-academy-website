@@ -24,12 +24,14 @@ const CourseDetails = () => {
     return (
         <Container className="mt-5">
             <h1 className="text-info">Course Details</h1>
+            
             <hr />
             <h3 className="mb-5">{course?.courseTitle}</h3>
             <Row xs={1} md={2} className="g-4">
                 <Col>
                     <h4>Course Summary</h4>
                     <hr />
+                
                     <p className="text-start">{course?.courseDescription}</p>
                     <br />
                     <h4>Requirements</h4>

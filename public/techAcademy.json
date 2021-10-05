@@ -52,7 +52,7 @@
             "Master fundamental concepts behind structuring Redux applications"
         ],
         "courseDescription": "The new content follows all the best practices of modern React development, and will take you even deeper into the React engine. There is a far better exploration of where React fits in the overall big picture of web development. And just like before, the course will teach how to create React applications as you build your own React projects along with the tutorial.",
-        "Requirements": "Familiarity with JavaScript, HTML, and CSS will help.",
+        "Requirement": "Familiarity with JavaScript, HTML, and CSS will help.",
         "rating": 4,
         "image": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/140405850/original/c670430f7b3452d1889b3dbda4356ab3911becef/create-professional-react-website-design.png"
     },

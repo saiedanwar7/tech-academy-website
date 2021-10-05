@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Header from '../Header/Header';
 import './Courses.css'
 
 const Courses = () => {
@@ -32,7 +31,6 @@ const Courses = () => {
                                             <p>Price- {course.price} Tk</p>
                                             <p>Level- {course.courseLevel}</p>
                                         </div>
-
                                         <hr />
                                         {course.courseDescription.slice(0, 120)}...
                                     </Card.Text>
