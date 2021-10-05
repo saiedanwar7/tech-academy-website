@@ -25,13 +25,12 @@ const Footer = () => {
                           </div>
                     </Col>
 
-                    <Col className="col-3">
+                    <Col className="col-3 text-start">
                         <p>About</p>
                         <p>Terms and conditions</p>
                         <p>Privacy Policy</p>
                         <p>Call - 018520-0000</p>
                  
-
                     </Col>
                    
                     

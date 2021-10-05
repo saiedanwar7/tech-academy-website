@@ -22,11 +22,18 @@ const Courses = () => {
                 <Row xs={1} md={3} className="g-4">
                     {
                         courses.map(course => <Col key={course.courseId}>
-                            <Card className="h-100">
+                           
+                            <Card className="h-100 course-card">
                                 <Card.Img className="card-img" variant="top" src={course.image} />
                                 <Card.Body className="d-flex flex-column">
                                     <Card.Title>{course.courseTitle}</Card.Title>
                                     <Card.Text>
+                                        <div className="d-flex justify-content-between pt-3">
+                                            <p>Price- {course.price} Tk</p>
+                                            <p>Level- {course.courseLevel}</p>
+                                        </div>
+                                        
+                                        <hr />
                                         {course.courseDescription.slice(0, 120)}...
                                     </Card.Text>
                                     <div className="mt-auto ">
@@ -34,6 +41,9 @@ const Courses = () => {
                                     </div>
                                 </Card.Body>
                             </Card>
+
+
+
                         </Col>)
                     }
                 </Row>

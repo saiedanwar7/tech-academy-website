@@ -8,3 +8,8 @@
         background-color:rgb(34, 186, 212);
   
 }
+
+.course-card:hover{
+    box-shadow: 5px 10px 10px 5px rgba(19, 102, 122, 0.2), 0 6px 20px 0 rgba(57, 140, 173, 0.19);
+    
+}

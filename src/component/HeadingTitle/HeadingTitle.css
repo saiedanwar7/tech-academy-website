@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     
-    height: 450px;
+    height: 400px;
     text-align: center;
    
     
@@ -17,6 +17,7 @@
     color: white;
     font-weight: 700;
     font-size: 60px;
+    margin-bottom: 20px;
     
     
    
@@ -24,4 +25,5 @@
 .heading-text{
     font-weight: bold;
     color: white;
+    margin-bottom: 30px;
 }

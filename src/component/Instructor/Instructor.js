@@ -17,13 +17,16 @@ const Instructor = () => {
         <div>
             <Container className="mt-5">
 
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} md={3} className="g-5">
                     {
                         instructors.map(instructor => <Col key={instructor.courseId}>
-                            <Card className="text-center h-100">
+                            
+                            <Card className="text-center h-100 inst-card">
+
                                 <div className="mt-2">
                                     <img className="inst-img" src={instructor.image} alt="" />
                                 </div>
+
                                 <Card.Body className="d-flex flex-column">
                                     <Card.Title>{instructor.name}</Card.Title>
                                     <p>{instructor.profession}</p>
@@ -35,7 +38,9 @@ const Instructor = () => {
                                         
                                     </div>
                                 </Card.Body>
+
                             </Card>
+
                         </Col>)
                     }
                 </Row>
@@ -46,3 +51,4 @@ const Instructor = () => {
 };
 
 export default Instructor;
+

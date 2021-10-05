@@ -17,29 +17,37 @@ function App() {
     <div className="App">
       <Router>
         <Header></Header>
+
+
         <Switch>
           <Route exact path='/'>
             <Home></Home>
           </Route>
+
           <Route path='/courses'>
             <Courses></Courses>
           </Route>
+
           <Route path="/course/:courseId">
             <CourseDetails></CourseDetails>
           </Route>
+
           <Route path="/instructor">
             <Instructor></Instructor>
           </Route>
+
           <Route path="/about">
             <About></About>
           </Route>
+
            <Route path="*">
             <NotFound></NotFound>
           </Route>
 
-        </Switch>
-        <Footer></Footer>
-      </Router>
+         </Switch>
+            <Footer></Footer>
+         </Router>
+
     </div>
   );
 }

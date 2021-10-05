@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { useParams } from 'react-router';
 import {Col, Container, Row } from 'react-bootstrap';
+import './CourseDetails.css'
 
 const CourseDetails = () => {
     const { courseId } = useParams();
@@ -22,21 +23,24 @@ const CourseDetails = () => {
 
     return (
         <Container className="mt-5">
-            <h1>Course Details</h1>
+            <h1 className="text-info">Course Details</h1>
             <hr />
             <h3 className="mb-5">{course?.courseTitle}</h3>
             <Row xs={1} md={2} className="g-4">
                 <Col>
                     <h4>Course Summary</h4>
-                    <p>{course?.courseDescription}</p>
+                    <hr />
+                    <p className="text-start">{course?.courseDescription}</p>
                     <br />
-                    <h4>Prerequisite</h4>
-                    <p>{course?.prerequisite}</p>
+                    <h4>Requirements</h4>
+                    <hr />
+                    <p className="text-start">{course?.Requirement}</p>
 
                 </Col>
                 <Col>
                     <h4>Course Highlight</h4>
-                    <ul>
+                    <hr />
+                    <ul className="text-start">
                         {
                             course?.courseHighlight?.map(high=><li key={high}>{high}</li>)    
                         }

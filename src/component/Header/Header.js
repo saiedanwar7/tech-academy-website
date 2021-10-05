@@ -1,20 +1,28 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
     return (
         <div>
-            <Navbar className="pt-4 pb-4" bg="dark" variant="dark">
+            <Navbar className="pt-3 pb-3" expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <NavLink className="h2 text-decoration-none text-light nav-color" to="/">Tech<span> Academy</span></NavLink>
+                    <Link className="h2 text-decoration-none text-light nav-color" to="/">Tech<span> Academy</span></Link>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <NavLink className="text-decoration-none me-3 h5 text-light nav-color" to="/">Home</NavLink>
-                        <NavLink className="text-decoration-none me-3 h5 text-light nav-color" to="/courses">All Courses</NavLink>
-                        <NavLink className="text-decoration-none me-3 h5 text-light nav-color" to="/instructor">Instructors</NavLink>
-                        <NavLink className="text-decoration-none me-3 h5 text-light nav-color" to="/about">About us</NavLink>
+
+                        <Link className="text-decoration-none me-3 h5 text-light nav-color" to="/">Home</Link>
+
+                        <Link className="text-decoration-none me-3 h5 text-light nav-color" to="/courses">All Courses</Link>
+
+                        <Link className="text-decoration-none me-3 h5 text-light nav-color" to="/instructor">Instructors</Link>
+
+                        <Link className="text-decoration-none me-3 h5 text-light nav-color" to="/about">About Us</Link>
+
                     </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </div>
@@ -22,3 +30,8 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+
