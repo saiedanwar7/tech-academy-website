@@ -1,12 +1,9 @@
 .heading-title{
 
     background-image:linear-gradient(rgba(18, 24, 24, 0.493), rgba(18, 37, 36, 0.438)), url("https://images.squarespace-cdn.com/content/v1/5b1954d75cfd798b94327249/1528730226689-ESFAYA54VHPLMTY9G0GB/faculty+banners-03.jpg?format=2500w");
-
-    /* https://media.istockphoto.com/photos/female-hands-typing-on-laptop-student-workspace-on-a-blue-pastel-picture-id1224313258?k=20&m=1224313258&s=612x612&w=0&h=iuo2VYcJu0MFhjQPE5ts0U7DvGN0R-CzSmNk8rjqfeg= */
-
     background-repeat: no-repeat;
+
     background-size: cover;
-    
     height: 400px;
     text-align: center;
    
@@ -18,7 +15,6 @@
     font-weight: 700;
     font-size: 60px;
     margin-bottom: 20px;
-    
     
    
 }

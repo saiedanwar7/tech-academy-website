@@ -32,17 +32,15 @@ const Courses = () => {
                                             <p>Price- {course.price} Tk</p>
                                             <p>Level- {course.courseLevel}</p>
                                         </div>
-                                        
+
                                         <hr />
                                         {course.courseDescription.slice(0, 120)}...
                                     </Card.Text>
                                     <div className="mt-auto ">
-                                        <Link to={`/course/${course.courseId}`}><button className="btn w-100 button-color fw-bold">Details</button></Link>
+                                        <Link to={`/course/${course.courseId}`}><button className="btn w-100 button-color fw-semibold">Details</button></Link>
                                     </div>
                                 </Card.Body>
                             </Card>
-
-
 
                         </Col>)
                     }

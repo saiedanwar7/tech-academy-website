@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -26,7 +25,7 @@ const Footer = () => {
                     </Col>
 
                     <Col className="col-3 text-start">
-                        <p>About</p>
+                        <p>About Us</p>
                         <p>Terms and conditions</p>
                         <p>Privacy Policy</p>
                         <p>Call - 018520-0000</p>

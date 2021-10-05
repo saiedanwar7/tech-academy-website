@@ -11,7 +11,7 @@ const Header = () => {
                     <Link className="h2 text-decoration-none text-light nav-color" to="/">Tech<span> Academy</span></Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto ">
 
                         <Link className="text-decoration-none me-3 h5 text-light nav-color" to="/">Home</Link>
 
